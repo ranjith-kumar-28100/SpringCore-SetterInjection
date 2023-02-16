@@ -10,12 +10,12 @@
     <bean name="cardealer" class="inc.codeman.spring.springcore.set.CarDealer">
     <property name="name" value="GS Motors"/>
     <property name="models">
-    <list>
+    <set>
     <value>Maruthi Swift</value>
     <value>Mahindra XUV</value>
     <value>Toyota Innovo</value>
     <value>Toyota Innovo</value>
-    </list>
+    </set>
     </property>
     </bean>
 </beans>
